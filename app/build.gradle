@@ -60,7 +60,11 @@ android {
         implementation 'com.google.firebase:firebase-database'
         implementation 'com.firebaseui:firebase-ui-auth:7.2.0'
         implementation 'com.google.firebase:firebase-storage:20.0.1'
-        implementation 'com.google.firebase:firebase-messaging:23.0.5'
-    }
+        implementation 'com.google.firebase:firebase-messaging'
+        implementation 'com.google.firebase:firebase-analytics'    }
+}
+
+dependencies {
+    implementation 'androidx.work:work-runtime:2.7.1'
 }
 
